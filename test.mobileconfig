@@ -2,9 +2,29 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadUUID</key>
+    <string>0090a8862-0eda-4f8c-bb1c-efa4f70a5061</string>
+    <key>PayloadIdentifier</key>
+    <string>com.depinsim.esimprofile</string>
+    <key>PayloadDisplayName</key>
+    <string>eSIM Configuration</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
     <key>PayloadContent</key>
     <array>
       <dict>
+        <key>PayloadVersion</key>
+        <integer>1</integer>
+        <key>PayloadUUID</key>
+        <string>4c5a92e4-9644-49d9-b497-d07e3e606570</string>
+        <key>PayloadIdentifier</key>
+        <string>com.depinsim.cellular</string>
+        <key>PayloadType</key>
+        <string>com.apple.cellular</string>
+        <key>PayloadDisplayName</key>
+        <string>eSIM Cellular Payload</string>
         <key>Cellular</key>
         <dict>
           <key>ActivationURL</key>
@@ -16,15 +36,5 @@
         </dict>
       </dict>
     </array>
-    <key>PayloadDisplayName</key>
-    <string>eSIM Configuration</string>
-    <key>PayloadIdentifier</key>
-    <string>com.depinsim.esimprofile</string>
-    <key>PayloadType</key>
-    <string>Configuration</string>
-    <key>PayloadUUID</key>
-    <string>0090a8862-0eda-4f8c-bb1c-efa4f70a5061</string>
-    <key>PayloadVersion</key>
-    <integer>1</integer>
   </dict>
 </plist>
